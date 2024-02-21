@@ -1,0 +1,12 @@
+
+.vs/
+bin/
+obj/
+
+
+*.tmp
+*.bak
+
+
+*.log
+*.exe
