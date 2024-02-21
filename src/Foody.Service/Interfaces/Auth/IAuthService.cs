@@ -1,6 +1,6 @@
 ﻿using Foody.Service.DTOs.Auth;
 
-namespace Foody.Service.Interfaces
+namespace Foody.Service.Interfaces.Auth
 {
     public interface IAuthService
     {

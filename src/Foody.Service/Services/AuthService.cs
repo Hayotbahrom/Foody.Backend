@@ -1,5 +1,5 @@
 ﻿using Foody.Service.DTOs.Auth;
-using Foody.Service.Interfaces;
+using Foody.Service.Interfaces.Auth;
 
 namespace Foody.Service.Services;
 

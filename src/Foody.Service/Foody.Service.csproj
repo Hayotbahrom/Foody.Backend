@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Auth\" />
     <Folder Include="Interfaces\Users\" />
     <Folder Include="Interfaces\Saveds\" />
     <Folder Include="Interfaces\Restaurants\" />
