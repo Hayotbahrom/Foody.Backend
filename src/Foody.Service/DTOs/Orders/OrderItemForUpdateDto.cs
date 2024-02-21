@@ -1,0 +1,20 @@
+﻿using Foody.Domain.Entities.Orders;
+using Foody.Domain.Entities.Products;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Foody.Service.DTOs.Orders
+{
+    public class OrderItemForUpdateDto
+    {
+        public long Quantity { get; set; }
+        public decimal Price { get; set; }
+        public decimal Summ { get; set; }
+
+        public long OrderId { get; set; }
+        public long ProductId { get; set; }
+    }
+}

@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Interfaces\Auths\**" />
+    <EmbeddedResource Remove="Interfaces\Auths\**" />
+    <None Remove="Interfaces\Auths\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Foody.Domain\Foody.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Auth\" />
+    <Folder Include="Interfaces\Users\" />
+    <Folder Include="Interfaces\Saveds\" />
+    <Folder Include="Interfaces\Restaurants\" />
+    <Folder Include="Interfaces\Products\" />
+    <Folder Include="Interfaces\Payments\" />
+    <Folder Include="Interfaces\Orders\" />
+  </ItemGroup>
+
+</Project>
